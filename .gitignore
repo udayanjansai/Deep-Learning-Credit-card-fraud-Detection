@@ -3,13 +3,8 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Large data files (>100MB – use DVC or LFS if needed)
+# Raw dataset (144 MB – too large for GitHub; download from Kaggle)
 creditcard.csv
-*.csv
-
-# Trained model binaries (large – exclude from repo)
-models/*.keras
-models/*.pkl
 
 # OS / editor
 .DS_Store
